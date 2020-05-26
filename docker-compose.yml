@@ -61,8 +61,8 @@ services:
       - "80"
     volumes:
       - ./base_django/static:/usr/share/nginx/html/static # 挂载静态文件
-      - ./compose/nginx/ssl:/usr/share/nginx/ssl # 挂载ssl证书目录
-      - ./compose/nginx/log:/var/log/nginx # 挂载日志
+     # - ./compose/nginx/ssl:/usr/share/nginx/ssl  挂载ssl证书目录
+    #  - ./compose/nginx/log:/var/log/nginx # 挂载日志
       - base_django_media_vol:/usr/share/nginx/html/media # 挂载用户上传媒体文件
     links:
       - web
