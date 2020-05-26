@@ -48,7 +48,7 @@ services:
       - redis
     environment:
       - DEBUG=False
-      restart: always
+    restart: always
     tty: true
     stdin_open: true
 
