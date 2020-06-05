@@ -1,5 +1,5 @@
 # django
-django==3.0.6
+django>=3.0.7
 # uwsgi
 uwsgi==2.0.18
 # mysql
