@@ -8,4 +8,4 @@ mysqlclient==1.4.6
 django-redis==4.11.0
 redis==3.5.0
 # for images
-Pillow==7.1.2
+Pillow==8.3.2
